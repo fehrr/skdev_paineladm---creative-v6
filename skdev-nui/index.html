@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<link href="./skdev/css/css.css" rel="stylesheet" type="text/css"/> <!-- SE O NOME DO SEU ARQUIVO CSS FOR DIFERENTE,VC APENAS TROCA-->
+		<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script> <!-- IMPORT JQUERY-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> <!-- IMPORT JQUERY-->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+		<script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+		<title>SKDEV - PAINEL ADM</title>
+	</head>
+
+	<body>
+		<div class="administracao">
+			<div class="notificacaousuario">
+				<img src="./skdev/img/shield.png" draggable="false">
+				<h2>Um Superior Realizou um aviso!, cheque o tablet para saber mais informações!</h2>
+			</div>
+
+			<div class="menumodal2"></div>
+
+			<div class="menu1">
+				<div class="botao_menu1 buttonmenu2" onclick="GerenciarMenu('GerenciarPlayers')">
+					<img src="./skdev/img/members.png" draggable="false">
+					<h2>GERENCIAR PLAYERS</h2>
+				</div>
+				<div class="botao_menu1 buttonmenu3" onclick="GerenciarMenu('Punicoes')">
+					<img src="./skdev/img/hammer.png" draggable="false">
+					<h2>PUNIÇÕES</h2>
+				</div>
+				<div class="botao_menu1 buttonmenu4" onclick="GerenciarMenu('Inventario')">
+					<img src="./skdev/img/bag.png" draggable="false">
+					<h2>ITENS</h2>
+				</div>
+				<div class="botao_menu1 buttonmenu5" onclick="GerenciarMenu('Veiculos')">
+					<img src="./skdev/img/car.png" draggable="false">
+					<h2>VEICULOS</h2>
+				</div>
+
+				<img src="./skdev/img/logo.png" draggable="false" class="imgfoto">
+				<div class="informacao_menu1 nomedoadm">
+					<h2>Ruan Emanuel Teixeira</h2>
+				</div>
+				<div class="informacao_menu1 cargodoadm">
+					<h2>Administrador</h2>
+				</div>
+				<div class="close_menu1" onclick="funcaofechar()">
+					<img src="./skdev/img/exit.png" draggable="false">
+				</div>
+			</div>
+
+			<div class="menu2"></div>
+		</div>
+
+		<script src="./skdev/js/js.js" type="text/javascript"></script>
+    </body>
+</html>
